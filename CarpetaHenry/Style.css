@@ -1,47 +1,75 @@
-<!DOCTYPE html>
 
-<html lang="en">
 
-<head>
+body {
+    background-color: rgba(210, 105, 30, 0.671);
+}
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-</head>
+.title{
+    font-size: 2.5em;
+    color: brown;
+    flex: ;
+}
 
-<body>
+
+
+.logo{
+
+    width: 400px;
+}
+
+#principal{
+    font-size: 4.5em;
+    display: flex;
+    margin: auto;
+    align-items:center;
+}
+
+#Titulo{
+   
+    width: 88vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+}
+.card{
+    border: 10px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: aliceblue;
+}
+#container{
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(61, 56, 56);
+    border-radius: 10%;
+    font-size: 1.5em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     
-    <header>
-
-
-        
-    </header>
-
-
-
-
-
-
-
-
-
+}
+.cuadroseleccion{
+    border: 5px solid black;
+    width: fit-content;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-radius: 5%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
+}.cuadroseleccion:hover{
+    background-color: rgb(179, 102, 102);
+}
