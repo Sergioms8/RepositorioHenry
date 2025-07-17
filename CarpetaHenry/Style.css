@@ -8,7 +8,7 @@ body {
 .title{
     font-size: 2.5em;
     color: brown;
-    flex: ;
+    
 }
 
 
@@ -54,7 +54,7 @@ body {
     padding: 0.5em;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start
     
 }
 .cuadroseleccion{
@@ -70,6 +70,7 @@ body {
 
 
 
-}.cuadroseleccion:hover{
+}
+.cuadroseleccion:hover{
     background-color: rgb(179, 102, 102);
 }
