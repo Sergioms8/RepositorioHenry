@@ -39,8 +39,7 @@ console.log(typeof esActivo); // "boolean"
 
 //El parámetro es posicion --> Índice del carácter que quieres obtener (comienza en 0).
 
-//Con ello, retorna el carácter en esa posicion . Si el índice está 
-// fuera del rango, retorna una cadena vacía ("").
+//Con ello, retorna el carácter en esa posicion . Si el índice está fuera del rango, retorna una cadena vacía ("").
 
  let palabra = "HENRY";
 
